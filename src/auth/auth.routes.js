@@ -34,7 +34,7 @@ const router = Router();
  *       400:
  *         description: Error en la solicitud
  */
-router.post("/register", registerValidator, register);
+router.post("/register", register, registerValidator);
 
 /**
  * @swagger
@@ -59,6 +59,6 @@ router.post("/register", registerValidator, register);
  *       400:
  *         description: Error en la solicitud
  */
-router.post("/login", loginValidator, login);
+router.post("/login", login, loginValidator);
 
 export default router;

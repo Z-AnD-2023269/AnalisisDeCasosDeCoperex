@@ -6,6 +6,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import { dbConnection } from "./mongo.js";
 import authRoutes from "../src/auth/auth.routes.js";
+import enterpriseRoutes from "../src/enterprise/enterprise.routes.js";
 import { defaultAdmin } from "../src/admin/admin.controller.js";
 import apiLimiter from "../src/middlewares/rate-limit-validator.js"
 import { swaggerDocs, swaggerUi } from "./swagger.js";
@@ -35,6 +36,7 @@ const middlewares = (app) => {
 
 const routes = (app) => {
     app.use("/CoperexCaseAnalysis/v1/auth", authRoutes);
+    app.use("/CoperexCaseAnalysis/v1/enterprise", enterpriseRoutes)
     app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 }
 

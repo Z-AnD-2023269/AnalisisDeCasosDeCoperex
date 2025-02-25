@@ -1,4 +1,5 @@
 import Admin from "../admin/admin.model.js"
+import Enterprise from "../enterprise/enterprise.model.js"
 
 export const emailExists = async (email = "") => {
     const existe = await Admin.findOne({email})
@@ -14,3 +15,9 @@ export const adminExists = async (uid = " ") => {
     }
 }
 
+export const enterpriseExists = async (email = "" ) =>{
+    const existe = await Enterprise.findOne({email})
+    if (existe) {
+        return new Error(`La empresa ya está registrada`)
+    }
+}
