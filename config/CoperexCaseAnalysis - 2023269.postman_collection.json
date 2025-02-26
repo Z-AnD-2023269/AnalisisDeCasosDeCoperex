@@ -1,0 +1,261 @@
+{
+	"info": {
+		"_postman_id": "31b30af2-dd28-4c4d-b001-0d0471f6cb40",
+		"name": "CoperexCaseAnalysis - 2023269",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41663688"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JjZjUyMDE5YTJlNzJhNDU0NGQxMmEiLCJpYXQiOjE3NDA1OTYyNzUsImV4cCI6MTc0MDU5OTg3NX0.SwY6N3lsRqsWPpCPIJCkr927X9RxR1cBYL5Wu9zNhRs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{        \r\n    \"name\": \"Serian\",\r\n    \"email\": \"serian-2023346@gmail.com\",\r\n    \"phone\": \"87654321\",\r\n    \"password\": \"Viva.Maduro78\",\r\n    \"role\": \"ADMIN_ROLE\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/CoperexCaseAnalysis/v1/auth/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"CoperexCaseAnalysis",
+								"v1",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"alopez-2023269@gmail.com\",\r\n    \"password\": \"Ziloyta.269\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/CoperexCaseAnalysis/v1/auth/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"CoperexCaseAnalysis",
+								"v1",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Enterprise",
+			"item": [
+				{
+					"name": "Registrar Empresa",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JjZjUyMDE5YTJlNzJhNDU0NGQxMmEiLCJpYXQiOjE3NDA2MDE2NTEsImV4cCI6MTc0MDYwNTI1MX0.BZgocINsH2h5U6DZ6WFA2qanOJUFGPfRMh2csP_OVZc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"EcoMadera\",\r\n    \"email\": \"info@ecomadera.com\",\r\n    \"phone\": \"15975348\",\r\n    \"address\": \"Eco Parque 75, Green Design\",\r\n    \"website\": \"https://ecomadera.com\",\r\n    \"impactLevel\": \"Alto\",\r\n    \"foundingYear\": 2005,\r\n    \"category\": \"Mobiliario y Decoración\",\r\n    \"description\": \"Fabricación de muebles sostenibles con materiales reciclados.\",\r\n    \"socialMedia\": {\r\n        \"facebook\": \"https://facebook.com/ecomadera\",\r\n        \"instagram\": \"https://instagram.com/ecomadera\"\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/CoperexCaseAnalysis/v1/enterprise/registerEnterprise",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"CoperexCaseAnalysis",
+								"v1",
+								"enterprise",
+								"registerEnterprise"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Las Empresas Con Filtros",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JjZjUyMDE5YTJlNzJhNDU0NGQxMmEiLCJpYXQiOjE3NDA2MDE2NTEsImV4cCI6MTc0MDYwNTI1MX0.BZgocINsH2h5U6DZ6WFA2qanOJUFGPfRMh2csP_OVZc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/CoperexCaseAnalysis/v1/enterprise/list?sort=experience&limite=10&desde=5",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"CoperexCaseAnalysis",
+								"v1",
+								"enterprise",
+								"list"
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "Tecnología",
+									"disabled": true
+								},
+								{
+									"key": "impactLevel",
+									"value": "Alto",
+									"disabled": true
+								},
+								{
+									"key": "yearsOfExperience",
+									"value": "5",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "nameAZ",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "nameZA",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "experience"
+								},
+								{
+									"key": "limite",
+									"value": "10"
+								},
+								{
+									"key": "desde",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Datos de Empresa",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JjZjUyMDE5YTJlNzJhNDU0NGQxMmEiLCJpYXQiOjE3NDA2MDY0NTMsImV4cCI6MTc0MDYxMDA1M30.-_R4dU7PJsTSlj47cDT7BxEwFxz9qhMmiVKoYhxmuMk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"UrbanFurnish Pro\",\r\n    \"email\": \"contact@urbanfurnishpro.com\",\r\n    \"phone\": \"36985214\",\r\n    \"address\": \"Centro Urbano 88, Design City, Edificio 2\",\r\n    \"website\": \"https://urbanfurnishpro.com\",\r\n    \"impactLevel\": \"Alto\",\r\n    \"foundingYear\": 2020,\r\n    \"category\": \"Mobiliario y Decoración Avanzada\",\r\n    \"description\": \"Innovación en muebles modernos para espacios urbanos y oficinas, con diseños personalizados.\",\r\n    \"socialMedia\": {\r\n        \"facebook\": \"https://facebook.com/urbanfurnishpro\",\r\n        \"instagram\": \"https://instagram.com/urbanfurnishpro\"\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/CoperexCaseAnalysis/v1/enterprise/updateEnterprise/67bf6d0bc46357458fb4da13",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"CoperexCaseAnalysis",
+								"v1",
+								"enterprise",
+								"updateEnterprise",
+								"67bf6d0bc46357458fb4da13"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

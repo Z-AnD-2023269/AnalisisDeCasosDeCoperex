@@ -22,6 +22,7 @@ const swaggerOptions = {
     },
     apis:[
         "./src/auth/*.js",
+        "./src/enterprise/*.js",
     ]
 }
 
