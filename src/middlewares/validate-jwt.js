@@ -26,7 +26,7 @@ export const validateJWT = async (req, res, next) =>{
             })
         }
 
-        req.Administrador = admin
+        req.admin = admin
         next()
     }catch(err){
         return res.status(500).json({
