@@ -55,6 +55,6 @@ const router = Router();
  *       500:
  *         description: Error interno del servidor
  */
-router.post("/registerEnterprise", registerEnterprise, validateEnterprise)
+router.post("/registerEnterprise", validateEnterprise, registerEnterprise )
 
 export default router;

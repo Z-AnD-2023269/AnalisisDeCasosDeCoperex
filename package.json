@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Z-AnD-2023269/AnalisisDeCasosDeCoperex#readme",
   "description": "API para la gestión de empresas en la feria Interfer, permitiendo registro, consulta y generación de reportes en Excel. Desarrollada con Node.js, Express y MongoDB.",
   "dependencies": {
+    "analisisdecasosdecoperex": "file:",
     "argon2": "^0.41.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
