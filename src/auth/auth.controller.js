@@ -1,4 +1,4 @@
-`user strict`
+`use strict`
 
 import { hash, verify } from "argon2"
 import Admin from "../admin/admin.model.js"
