@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "31b30af2-dd28-4c4d-b001-0d0471f6cb40",
+		"_postman_id": "8c48a000-be59-4ea9-a5f4-1724b0ed85f7",
 		"name": "CoperexCaseAnalysis - 2023269",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "41663688"
+		"_exporter_id": "37589050"
 	},
 	"item": [
 		{
@@ -100,7 +100,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JjZjUyMDE5YTJlNzJhNDU0NGQxMmEiLCJpYXQiOjE3NDA2MDE2NTEsImV4cCI6MTc0MDYwNTI1MX0.BZgocINsH2h5U6DZ6WFA2qanOJUFGPfRMh2csP_OVZc",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MxMmZhYjQ2NGFmM2IwNTE1MGJiNzUiLCJpYXQiOjE3NDA3OTU3OTQsImV4cCI6MTc0MDc5OTM5NH0.ACvO-iauBDuCjGzU3IpSqIu_lA1gNPaiNhi3tPDhn_0",
 									"type": "string"
 								}
 							]
@@ -109,7 +109,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"EcoMadera\",\r\n    \"email\": \"info@ecomadera.com\",\r\n    \"phone\": \"15975348\",\r\n    \"address\": \"Eco Parque 75, Green Design\",\r\n    \"website\": \"https://ecomadera.com\",\r\n    \"impactLevel\": \"Alto\",\r\n    \"foundingYear\": 2005,\r\n    \"category\": \"Mobiliario y Decoración\",\r\n    \"description\": \"Fabricación de muebles sostenibles con materiales reciclados.\",\r\n    \"socialMedia\": {\r\n        \"facebook\": \"https://facebook.com/ecomadera\",\r\n        \"instagram\": \"https://instagram.com/ecomadera\"\r\n    }\r\n}\r\n",
+							"raw": "{\r\n    \"name\": \"GreenWheels\",\r\n    \"email\": \"info@greenwheels.com\",\r\n    \"phone\": \"96374125\",\r\n    \"address\": \"Autopista Sustentable 55, Movilidad Verde\",\r\n    \"website\": \"https://greenwheels.com\",\r\n    \"impactLevel\": \"Alto\",\r\n    \"foundingYear\": 2016,\r\n    \"category\": \"Tecnología Verde\",\r\n    \"description\": \"Desarrollo de vehículos eléctricos con materiales reciclables.\",\r\n    \"socialMedia\": {\r\n        \"facebook\": \"https://facebook.com/greenwheels\",\r\n        \"instagram\": \"https://instagram.com/greenwheels\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -144,7 +144,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JjZjUyMDE5YTJlNzJhNDU0NGQxMmEiLCJpYXQiOjE3NDA2MDE2NTEsImV4cCI6MTc0MDYwNTI1MX0.BZgocINsH2h5U6DZ6WFA2qanOJUFGPfRMh2csP_OVZc",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MxMmZhYjQ2NGFmM2IwNTE1MGJiNzUiLCJpYXQiOjE3NDA3OTU3OTQsImV4cCI6MTc0MDc5OTM5NH0.ACvO-iauBDuCjGzU3IpSqIu_lA1gNPaiNhi3tPDhn_0",
 									"type": "string"
 								}
 							]
@@ -152,7 +152,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:3000/CoperexCaseAnalysis/v1/enterprise/list?sort=experience&limite=10&desde=5",
+							"raw": "http://127.0.0.1:3000/CoperexCaseAnalysis/v1/enterprise/list",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -174,6 +174,16 @@
 									"disabled": true
 								},
 								{
+									"key": "sort",
+									"value": "nameZA",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "nameAZ",
+									"disabled": true
+								},
+								{
 									"key": "impactLevel",
 									"value": "Alto",
 									"disabled": true
@@ -185,25 +195,18 @@
 								},
 								{
 									"key": "sort",
-									"value": "nameAZ",
+									"value": "experience",
 									"disabled": true
-								},
-								{
-									"key": "sort",
-									"value": "nameZA",
-									"disabled": true
-								},
-								{
-									"key": "sort",
-									"value": "experience"
 								},
 								{
 									"key": "limite",
-									"value": "10"
+									"value": "10",
+									"disabled": true
 								},
 								{
 									"key": "desde",
-									"value": "5"
+									"value": "5",
+									"disabled": true
 								}
 							]
 						}
@@ -250,6 +253,68 @@
 								"enterprise",
 								"updateEnterprise",
 								"67bf6d0bc46357458fb4da13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Generar Reportes",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MxMmZhYjQ2NGFmM2IwNTE1MGJiNzUiLCJpYXQiOjE3NDA3OTU3OTQsImV4cCI6MTc0MDc5OTM5NH0.ACvO-iauBDuCjGzU3IpSqIu_lA1gNPaiNhi3tPDhn_0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/CoperexCaseAnalysis/v1/enterprise/generateReport",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"CoperexCaseAnalysis",
+								"v1",
+								"enterprise",
+								"generateReport"
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "Mobiliario y Decoración",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "nameAZ",
+									"disabled": true
+								},
+								{
+									"key": "impactLevel",
+									"value": "Alto",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "experience",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "nameZA",
+									"disabled": true
+								}
 							]
 						}
 					},
