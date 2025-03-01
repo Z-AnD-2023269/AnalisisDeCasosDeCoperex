@@ -1,14 +1,14 @@
 `use strict`;
 
 import { Router } from "express";
-import { registerEnterprise, getEnterprises, updateEnterprise  } from "./enterprise.controller.js";
-import { validateEnterprise, validateGetEnterprises, updateEnterpriseValidator  } from "../middlewares/enterprise-validator.js";
+import { registerEnterprise, getEnterprises, updateEnterprise, generateEnterpriseReport } from "./enterprise.controller.js";
+import { validateEnterprise, validateGetEnterprises, updateEnterpriseValidator, generateEnterpriseReportValidator } from "../middlewares/enterprise-validator.js";
 
 const router = Router();
 
 /**
  * @swagger
- * /enterprises:
+ * /enterprises/registerEnterprise:
  *   post:
  *     summary: Registra una nueva empresa
  *     tags: [Enterprises]
@@ -38,9 +38,9 @@ const router = Router();
  *                 type: string
  *                 enum: ["Alto", "Medio", "Bajo"]
  *                 example: "Alto"
- *               yearsOfExperience:
+ *               foundingYear:
  *                 type: number
- *                 example: 10
+ *                 example: 2010
  *               category:
  *                 type: string
  *                 example: "Tecnología"
@@ -144,7 +144,7 @@ router.get("/list", validateGetEnterprises, getEnterprises)
 
 /**
  * @swagger
- * /enterprises/{uid}:
+ * /enterprises/updateEnterprise/{uid}:
  *   put:
  *     summary: Actualiza una empresa existente
  *     tags: [Enterprises]
@@ -201,5 +201,48 @@ router.get("/list", validateGetEnterprises, getEnterprises)
  *         description: Error interno del servidor
  */
 router.put("/updateEnterprise/:uid", updateEnterpriseValidator, updateEnterprise)
+
+/**
+ * @swagger
+ * /enterprises/generateReport:
+ *   get:
+ *     summary: Genera un reporte en Excel con los filtros aplicados
+ *     tags: [Enterprises]
+ *     parameters:
+ *       - in: query
+ *         name: category
+ *         required: false
+ *         schema:
+ *           type: string
+ *         description: Filtra por categoría de empresa
+ *       - in: query
+ *         name: impactLevel
+ *         required: false
+ *         schema:
+ *           type: string
+ *           enum: ["Alto", "Medio", "Bajo"]
+ *         description: Filtra por nivel de impacto
+ *       - in: query
+ *         name: yearsOfExperience
+ *         required: false
+ *         schema:
+ *           type: number
+ *         description: Filtra empresas con al menos X años de experiencia
+ *       - in: query
+ *         name: sort
+ *         required: false
+ *         schema:
+ *           type: string
+ *           enum: ["nameAZ", "nameZA", "experience"]
+ *         description: Ordena los resultados
+ *     responses:
+ *       200:
+ *         description: Reporte generado exitosamente
+ *       400:
+ *         description: Error en la solicitud (parámetros no válidos)
+ *       500:
+ *         description: Error interno del servidor
+ */
+router.get("/generateReport", generateEnterpriseReportValidator, generateEnterpriseReport)
 
 export default router;

@@ -38,6 +38,14 @@ export const validateGetEnterprises = [
 
 export const updateEnterpriseValidator = [
     validateJWT,
+    hasRoles("ADMIN_ROLE"),
+    validarCampos,
+    handleErrors
+]
+
+export const generateEnterpriseReportValidator = [
+    validateJWT,
+    hasRoles("ADMIN_ROLE"),
     validarCampos,
     handleErrors
 ]
