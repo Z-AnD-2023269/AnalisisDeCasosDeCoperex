@@ -1,0 +1,575 @@
+[{
+  "_id": {
+    "$oid": "67c13ae50665c8ab2e553113"
+  },
+  "name": "EcoMadera",
+  "email": "info@ecomadera.com",
+  "phone": "15975348",
+  "address": "Eco Parque 75, Green Design",
+  "website": "https://ecomadera.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2005,
+  "yearsOfExperience": 20,
+  "category": "Mobiliario y Decoración",
+  "description": "Fabricación de muebles sostenibles con materiales reciclados.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/ecomadera",
+    "instagram": "https://instagram.com/ecomadera"
+  },
+  "createdAt": {
+    "$date": "2025-02-28T04:26:13.877Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-28T04:26:13.877Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c26fdcd76ed2fc3114fe49"
+  },
+  "name": "VerdeHogar",
+  "email": "contacto@verdehogar.com",
+  "phone": "12345678",
+  "address": "Av. Sostenible 45, Eco Ciudad",
+  "website": "https://verdehogar.com",
+  "impactLevel": "Medio",
+  "foundingYear": 2010,
+  "yearsOfExperience": 15,
+  "category": "Mobiliario y Decoración",
+  "description": "Decoración y muebles ecológicos para hogares y oficinas.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/verdehogar",
+    "instagram": "https://instagram.com/verdehogar"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:24:28.429Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:24:28.429Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c26fe9d76ed2fc3114fe4e"
+  },
+  "name": "BioStyle",
+  "email": "bio@biostyle.com",
+  "phone": "98765432",
+  "address": "Calle Verde 89, EcoDesign",
+  "website": "https://biostyle.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2012,
+  "yearsOfExperience": 13,
+  "category": "Mobiliario y Decoración",
+  "description": "Producción de muebles biodegradables y minimalistas.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/biostyle",
+    "instagram": "https://instagram.com/biostyle"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:24:41.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:24:41.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c26ff4d76ed2fc3114fe53"
+  },
+  "name": "ReciclaDeco",
+  "email": "info@recicladeco.com",
+  "phone": "12378945",
+  "address": "Paseo Reciclado 56, EcoArt",
+  "website": "https://recicladeco.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2018,
+  "yearsOfExperience": 7,
+  "category": "Mobiliario y Decoración",
+  "description": "Diseño de interiores con materiales reciclados.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/recicladeco",
+    "instagram": "https://instagram.com/recicladeco"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:24:52.683Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:24:52.683Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c26fffd76ed2fc3114fe58"
+  },
+  "name": "Mundo EcoTextil",
+  "email": "contacto@mundoecomoda.com",
+  "phone": "15985246",
+  "address": "Calle Algodón Orgánico 34, Moda Eco",
+  "website": "https://mundoecomoda.com",
+  "impactLevel": "Medio",
+  "foundingYear": 2011,
+  "yearsOfExperience": 14,
+  "category": "Moda Sostenible",
+  "description": "Ropa hecha con textiles orgánicos y materiales reciclados.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/mundoecomoda",
+    "instagram": "https://instagram.com/mundoecomoda"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:25:03.902Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:25:03.902Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c27009d76ed2fc3114fe5d"
+  },
+  "name": "VerdePasarela",
+  "email": "info@verdepasarela.com",
+  "phone": "45879632",
+  "address": "Av. Ecológica 12, Distrito Moda",
+  "website": "https://verdepasarela.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2015,
+  "yearsOfExperience": 10,
+  "category": "Moda Sostenible",
+  "description": "Moda ecológica con impacto positivo en el medio ambiente.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/verdepasarela",
+    "instagram": "https://instagram.com/verdepasarela"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:25:13.827Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:25:13.827Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2702cd76ed2fc3114fe62"
+  },
+  "name": "EcoTrend",
+  "email": "eco@ecotrend.com",
+  "phone": "75395148",
+  "address": "Calle Verde 75, Moda Sustentable",
+  "website": "https://ecotrend.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2017,
+  "yearsOfExperience": 8,
+  "category": "Moda Sostenible",
+  "description": "Fabricación de ropa con algodón reciclado y tintes naturales.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/ecotrend",
+    "instagram": "https://instagram.com/ecotrend"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:25:48.631Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:25:48.631Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c27037d76ed2fc3114fe67"
+  },
+  "name": "EnerSol",
+  "email": "contacto@enersol.com",
+  "phone": "36985214",
+  "address": "Plaza Solar 89, Energía Limpia",
+  "website": "https://enersol.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2008,
+  "yearsOfExperience": 17,
+  "category": "Energía Renovable",
+  "description": "Soluciones de energía solar para hogares y empresas.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/enersol",
+    "instagram": "https://instagram.com/enersol"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:25:59.471Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:25:59.471Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c27045d76ed2fc3114fe6c"
+  },
+  "name": "VientoVerde",
+  "email": "info@vientoverde.com",
+  "phone": "14725836",
+  "address": "Av. Turbina 45, Eco Energía",
+  "website": "https://vientoverde.com",
+  "impactLevel": "Medio",
+  "foundingYear": 2013,
+  "yearsOfExperience": 12,
+  "category": "Energía Renovable",
+  "description": "Desarrollo de parques eólicos para energías limpias.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/vientoverde",
+    "instagram": "https://instagram.com/vientoverde"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:26:13.283Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:26:13.283Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2704fd76ed2fc3114fe71"
+  },
+  "name": "HidroEco",
+  "email": "contacto@hidroeco.com",
+  "phone": "12365478",
+  "address": "Carrera del Agua 99, Hidroeléctrica Verde",
+  "website": "https://hidroeco.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2010,
+  "yearsOfExperience": 15,
+  "category": "Energía Renovable",
+  "description": "Proyectos de energía hidroeléctrica con bajo impacto ambiental.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/hidroeco",
+    "instagram": "https://instagram.com/hidroeco"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:26:23.528Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:26:23.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2706ad76ed2fc3114fe76"
+  },
+  "name": "BioMarket",
+  "email": "info@biomarket.com",
+  "phone": "78541236",
+  "address": "Plaza Orgánica 25, Bio Ciudad",
+  "website": "https://biomarket.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2012,
+  "yearsOfExperience": 13,
+  "category": "Alimentación Saludable",
+  "description": "Supermercado de productos 100% orgánicos y ecológicos.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/biomarket",
+    "instagram": "https://instagram.com/biomarket"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:26:50.701Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:26:50.701Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c27075d76ed2fc3114fe7b"
+  },
+  "name": "EcoChef",
+  "email": "contacto@ecochef.com",
+  "phone": "65498732",
+  "address": "Calle Gourmet 99, Sano y Rico",
+  "website": "https://ecochef.com",
+  "impactLevel": "Medio",
+  "foundingYear": 2018,
+  "yearsOfExperience": 7,
+  "category": "Alimentación Saludable",
+  "description": "Restaurante con menús orgánicos y sin desperdicio de alimentos.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/ecochef",
+    "instagram": "https://instagram.com/ecochef"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:27:01.627Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:27:01.627Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c27080d76ed2fc3114fe80"
+  },
+  "name": "NutriVida",
+  "email": "info@nutrividashop.com",
+  "phone": "78965412",
+  "address": "Av. Saludable 45, Nutrición Verde",
+  "website": "https://nutrividashop.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2015,
+  "yearsOfExperience": 10,
+  "category": "Alimentación Saludable",
+  "description": "Venta de suplementos y alimentos naturales para una vida saludable.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/nutrivida",
+    "instagram": "https://instagram.com/nutrivida"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:27:12.534Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:27:12.534Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c27090d76ed2fc3114fe85"
+  },
+  "name": "AgroEco",
+  "email": "contacto@agroeco.com",
+  "phone": "85274169",
+  "address": "Km 12, Ruta Verde, Eco Campo",
+  "website": "https://agroeco.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2010,
+  "yearsOfExperience": 15,
+  "category": "Alimentación Saludable",
+  "description": "Producción y distribución de frutas y verduras orgánicas.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/agroeco",
+    "instagram": "https://instagram.com/agroeco"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:27:28.020Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:27:28.020Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c270aad76ed2fc3114fe8a"
+  },
+  "name": "GreenTech",
+  "email": "info@greentech.com",
+  "phone": "78963214",
+  "address": "Calle Innovación 88, Distrito Verde",
+  "website": "https://greentech.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2014,
+  "yearsOfExperience": 11,
+  "category": "Tecnología Verde",
+  "description": "Desarrollo de tecnología ecológica para reducir la huella de carbono.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/greentech",
+    "instagram": "https://instagram.com/greentech"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:27:54.071Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:27:54.071Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c270b8d76ed2fc3114fe8f"
+  },
+  "name": "EcoBytes",
+  "email": "contacto@ecobytes.com",
+  "phone": "65412398",
+  "address": "Zona Tech 34, Smart City",
+  "website": "https://ecobytes.com",
+  "impactLevel": "Medio",
+  "foundingYear": 2017,
+  "yearsOfExperience": 8,
+  "category": "Tecnología Verde",
+  "description": "Software para optimización del consumo energético en empresas.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/ecobytes",
+    "instagram": "https://instagram.com/ecobytes"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:28:08.172Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:28:08.172Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c270c2d76ed2fc3114fe94"
+  },
+  "name": "SolarTech",
+  "email": "info@solartech.com",
+  "phone": "95175382",
+  "address": "Av. Sol 77, Tech Sustentable",
+  "website": "https://solartech.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2013,
+  "yearsOfExperience": 12,
+  "category": "Tecnología Verde",
+  "description": "Desarrollo de paneles solares de alta eficiencia.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/solartech",
+    "instagram": "https://instagram.com/solartech"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:28:18.679Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:28:18.679Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c270ced76ed2fc3114fe99"
+  },
+  "name": "EcoSoft",
+  "email": "contacto@ecosoft.com",
+  "phone": "75395146",
+  "address": "Calle Digital 90, Software Verde",
+  "website": "https://ecosoft.com",
+  "impactLevel": "Medio",
+  "foundingYear": 2016,
+  "yearsOfExperience": 9,
+  "category": "Tecnología Verde",
+  "description": "Software de gestión de residuos y reciclaje.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/ecosoft",
+    "instagram": "https://instagram.com/ecosoft"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:28:30.074Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:28:30.074Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c270d9d76ed2fc3114fe9e"
+  },
+  "name": "GreenData",
+  "email": "info@greendata.com",
+  "phone": "65478921",
+  "address": "Av. Digital 123, Ciudad Ecológica",
+  "website": "https://greendata.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2020,
+  "yearsOfExperience": 5,
+  "category": "Tecnología Verde",
+  "description": "Soluciones de almacenamiento de datos con servidores ecológicos.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/greendata",
+    "instagram": "https://instagram.com/greendata"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:28:41.509Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:28:41.509Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c270e9d76ed2fc3114fea3"
+  },
+  "name": "BioBaterías",
+  "email": "contacto@biobaterias.com",
+  "phone": "96385274",
+  "address": "Paseo Innovador 55, Distrito Sustentable",
+  "website": "https://biobaterias.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2019,
+  "yearsOfExperience": 6,
+  "category": "Tecnología Verde",
+  "description": "Baterías ecológicas con materiales biodegradables.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/biobaterias",
+    "instagram": "https://instagram.com/biobaterias"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:28:57.796Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:28:57.796Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c270f5d76ed2fc3114fea8"
+  },
+  "name": "OrganicFuel",
+  "email": "info@organicfuel.com",
+  "phone": "85296341",
+  "address": "Eco Drive 75, Ciudad Verde",
+  "website": "https://organicfuel.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2011,
+  "yearsOfExperience": 14,
+  "category": "Energía Renovable",
+  "description": "Biocombustibles a partir de residuos orgánicos.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/organicfuel",
+    "instagram": "https://instagram.com/organicfuel"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:29:09.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:29:09.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c27101d76ed2fc3114fead"
+  },
+  "name": "VeganMeals",
+  "email": "contacto@veganmeals.com",
+  "phone": "78963214",
+  "address": "Calle Natural 99, Sano y Rico",
+  "website": "https://veganmeals.com",
+  "impactLevel": "Medio",
+  "foundingYear": 2018,
+  "yearsOfExperience": 7,
+  "category": "Alimentación Saludable",
+  "description": "Plataforma de delivery de comida vegana y saludable.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/veganmeals",
+    "instagram": "https://instagram.com/veganmeals"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:29:21.073Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:29:21.073Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c2710bd76ed2fc3114feb2"
+  },
+  "name": "GreenWheels",
+  "email": "info@greenwheels.com",
+  "phone": "96374125",
+  "address": "Autopista Sustentable 55, Movilidad Verde",
+  "website": "https://greenwheels.com",
+  "impactLevel": "Alto",
+  "foundingYear": 2016,
+  "yearsOfExperience": 9,
+  "category": "Tecnología Verde",
+  "description": "Desarrollo de vehículos eléctricos con materiales reciclables.",
+  "socialMedia": {
+    "facebook": "https://facebook.com/greenwheels",
+    "instagram": "https://instagram.com/greenwheels"
+  },
+  "createdAt": {
+    "$date": "2025-03-01T02:29:31.262Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T02:29:31.262Z"
+  }
+}]
